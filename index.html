@@ -6,7 +6,7 @@
 
   <title>Work in Progress RPG</title>
   <meta name="description" content="WIP RPG">
-  <meta name="author" content="BoosterLong">
+  <meta name="author" content="Blake Chartrand">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -21,7 +21,7 @@
   <ul>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#characters">Characters</a></li>
-    <li><a href="#races">Races</a></li>
+    <li><a href="#traits">Traits</a></li>
     <li><a href="#origins">Origins</a></li>
     <li><a href="#classes">Classes</a></li>
     <li><a href="#equipment">Equipment</a></li>
@@ -42,26 +42,188 @@
   </section>
   <section id="characters">
     <h1>Characters</h1>
-    <p>Ratione nulla nam, ipsa dignissimos corrupti veniam nostrum, laudantium asperiores sequi numquam placeat velit voluptate in praesentium non labore unde incidunt laborum maxime quae magni.</p>
+    <p><h3>Primary Stats&nbsp;</h3>
+      <p><strong>Brawn </strong>- Health or Strength</p>
+      <p><strong>Cunning </strong>- Deception or Stealth</p>
+      <p><strong>Intellect </strong>- Crafting or Knowledge</p>
+      <p><strong>Perception </strong>- Recon or Appraisal</p>
+      <p><strong>Charisma </strong>- Charm or Inspire</p>
+      <p><strong>Agility </strong>- Manoeuvre or Perform</p></p>
   </section>
-  <section id="races">
-    <h1>Races</h1>
-    <p>Land humans are snooty and love castles and cities.<br>
-Perception + Charisma<br>
-Sea humans love trade and exploration.<br>
-Brawn + Charisma<br>
-Forest elves live in the forest and worship the Sun<br>
-Agility + Perception<br>
-City elves live in cities and practice arcane magic<br>
-Intellect + Cunning<br>
-Dwarves follow classic fantasy dwarf culture<br>
-Brawn + Cunning<br>
-Goblins are tinkerers and tradesmen<br>
-Agility + Intellect</p>
+  <section id="Traits">
+    <h1>Traits</h1>
+    <p><h3>Undead (With Flesh)</h3>
+      <ul>
+      <li>An undead creature cannot receive healing via a spell that provides a numerical gain to health, however undead creatures that retain flesh as part of their structure may benefit from healing spells that remove minor and major wounds.</li>
+      <li>Undead characters with flesh cannot recover from minor or major wounds naturally.</li>
+      <li>Undead creatures with flesh do not require sleep, air, water or food. They may still consume potions and benefit from food buffs.&nbsp;</li>
+      <li>Undead creatures with flesh have a -3 on social interactions if their flesh is showing.</li>
+      <li>Undead creatures with flesh may consume the corpse of a recently dead (48 hours) creature over the course of one hour to regain full health.</li>
+      </ul>
+      <h3>Undead(Skeleton)</h3>
+      <ul>
+      <li>An undead creature cannot receive healing via a spell that provides a numerical gain to health.</li>
+      <li>Skeletal creatures are immune to pierce damage.</li>
+      <li>Skeletal creatures are <strong>weak</strong> to strike damage.</li>
+      <li>Skeletal creatures weigh 1/6th the weight of a similarly fleshed creature.</li>
+      <li>Skeletal creatures have a <strong>-6</strong> on social interactions if their skeleton is showing.</li>
+      <li>Skeletal creatures can not eat, drink, breathe or sleep. Because of this they are unable to consume potions, gain food buffs or heal from rest.</li>
+      <li>If a skeletal creature has the &lsquo;winged&rsquo; trait, they cannot use the flying feature, and their wing attack&rsquo;s damage type changes to pierce.</li>
+      <li>If an attack would wound a skeletal creature, it instead removes a limb. (See missing limb traits) Limbs can be reattached by spending a full turn magically reassembling.</li>
+      </ul>
+      <h3>Undead(Ethereal)</h3>
+      <ul>
+      <li>An undead creature cannot receive healing via a spell that provides a numerical gain to health.</li>
+      <li>An undead ethereal creature cannot equip mundane equipment.</li>
+      <li>Ethereal undead are <strong>weak</strong> to magic</li>
+      <li>Ethereal undead creature immunities:</li>
+      <ul>
+      <li>Mundane physical damage&nbsp;</li>
+      <li>Prone, grappled, poisoned, bleeding and rooted conditions</li>
+      </ul>
+      <li>Ethereal creatures movement is replaced with <strong>Fly 2m</strong> and are unhindered by nonmagical materials.</li>
+      <li>If an ethereal undead spends a full round inside a living creature, it may attempt to possess the creature. The ethereal undead and the target compare Charisma rolls. If the target loses the comparison the ethereal undead steals 1d4 health and may control the target&rsquo;s body for an amount of rounds equal to the difference between the Charisma rolls. At the start of the target's turn the target may roll an inspire check to expel the ethereal undead.</li>
+      </ul>
+      <h3>Elven</h3>
+      <ul>
+      <li>Elven characters are proficient with all bows.</li>
+      <li>Elven characters have resistance to being charmed.</li>
+      <li>Elven characters have the concealment and beast taming skills.</li>
+      </ul>
+      <h3>Dwarven</h3>
+      <ul>
+      <li>Dwarves are immune to poison.</li>
+      <li>Dwarves have the blacksmithing and barter skills.</li>
+      <li>Dwarves have advantage on appraisal rolls to determine an object's worth.</li>
+      </ul>
+      <h3>Goblinoid</h3>
+      <ul>
+      <li>Small goblinoids have the pickpocket and sneak skills.</li>
+      <li>Medium goblinoids have the interrogation and seamanship skills.</li>
+      <li>Goblins may take a turn to turn any mundane item (at the DM&rsquo;s discretion) into a &lsquo;goblin shank(pierce)&rsquo;, a &lsquo;goblin sap(strike)&rsquo; or &lsquo;goblin knuckles(unarmed)&rsquo;. These weapons do a d6 of damage with no associated stat bonus and deteriorate by the end of combat.</li>
+      <li>Goblinoids may eat rotten, raw or otherwise spoiled meat and benefit from it as if it was of passable quality.</li>
+      </ul>
+      <h3>Bipedal</h3>
+      <ul>
+      <li>Standard movement for a bipedal creature is 6 meters.</li>
+      </ul>
+      <h3>Quadrupedal</h3>
+      <ul>
+      <li>Standard movement for a quadrupedal creature is 10 meters.</li>
+      <li>Quadrupedal creatures are immune to the prone condition.</li>
+      </ul>
+      <h3>Winged</h3>
+      <ul>
+      <li>Winged medium and large creatures may move vertically while <strong>sprinting</strong>.</li>
+      <li>Winged small creatures may move vertically whenever they use movement.</li>
+      <li>Medium and large winged creatures may use an action to make a wing attack with a d6+brawn damage roll of the type bludgeoning.</li>
+      </ul>
+      <h3>Aquatic</h3>
+      <ul>
+      <li>A creature with the aquatic trait may breathe underwater.</li>
+      <li>A creature with the aquatic trait may move at their normal speed underwater.</li>
+      <li>Aquatic creatures are <strong>weak</strong> to ice damage.</li>
+      <li>Aquatic creatures need to consume water every 12 hours while on land or suffer the effects of being poisoned.</li>
+      </ul>
+      <h3>Trollkin</h3>
+      <ul>
+      <li>Regeneration</li>
+      </ul>
+      <h3>Cyclopian / Missing Eye</h3>
+      <ul>
+      <li>You only got one eye, I hope it&rsquo;s good.</li>
+      </ul>
+      <h3>Treefolk</h3>
+      <ul>
+      <ul>
+      <li>May not rest indoors</li>
+      </ul>
+      </ul>
+      <ul>
+      <li><strong><strong>Weak</strong> to fire damage, immune to bleeding</strong></li>
+      </ul>
+      <h3>Reptilian</h3>
+      <ul>
+      <li>Very slow limb regeneration</li>
+      <li>Ability to eat raw or spoiled meat</li>
+      <li>Natural armor</li>
+      <li>Hold breath underwater longer</li>
+      </ul>
+      <h3>Bipedal (Hooves)</h3>
+      <ul>
+      <li>Standard movement for a bipedal creature is 6 meters.</li>
+      </ul>
+      <ul>
+      <li>A bipedal hooved creature may use manoeuvre instead of strength to climb.</li>
+      <li>Bipedal hooved feet have disadvantage on stealth when walking on hard surfaces.</li>
+      </ul>
+      <h3>Sentient Object</h3>
+      <ul>
+      <li>Doesn&rsquo;t need to drink, eat, breathe or sleep / No potion no food buffs</li>
+      <li>Does not have a movement speed</li>
+      <li>Immune to stunned, poisoned, grappled, prone, bleeding and rooted</li>
+      <li>Insert a ludicrous amount of rules</li>
+      </ul>
+      <h3>Mechanical</h3>
+      <ul>
+      <li>Doesn&rsquo;t need to drink, eat, breath or sleep / No potion no food buffs</li>
+      <li>Cannot recover using healing spells</li>
+      <li>Unique wounds chart</li>
+      </ul>
+      <h3>Slithering</h3>
+      <ul>
+      <li>Movement for a slithering creature is 6 meters</li>
+      <li>Movement is 1m on a slicksurface such as ice, polished stone or glass.</li>
+      <li>Slithering creatures are immune to the &lsquo;rooted&rsquo; condition</li>
+      <li>Slithering creatures are capable of grappling an opponent with both hands free, but their movement is reduced to 1m</li>
+      </ul>
+      <h3>Avian</h3>
+      <ul>
+      <li>Bird bones?</li>
+      <li>Beak attack</li>
+      <li>Good eyesight</li>
+      </ul>
+      <h3>Elemental</h3>
+      <ul>
+      <li>Absorption of chosen element</li>
+      <li>Weakness to opposing element</li>
+      <li>Elemental affinity? Advantage on spells? Attacks?</li>
+      </ul>
+      <h3>Animal Head</h3>
+      <ul>
+      <li>Bite attack</li>
+      <li>Keen tracking</li>
+      <li>Speak with animals</li>
+      </ul>
+      <h3>Dragon</h3>
+      <ul>
+      <li>Not a viable character trait</li>
+      <li>Insert a bunch of buffs</li>
+      </ul>
+      <h3>Missing Arm</h3>
+      <ul>
+      <li>Can only use 1 handed weapons, cannot reload crossbows</li>
+      </ul>
+      <h3>Missing Leg</h3>
+      <ul>
+      <li>Half movement</li>
+      <li>Disadvantage on manoeuvre</li>
+      </ul></p>
   </section>
   <section id="origins">
     <h1>Origins</h1>
-    <p>Aliquid aliquam magnam ducimus similique obcaecati, unde exercitationem laborum incidunt, quas in ipsum inventore nostrum? Blanditiis optio cumque earum iste odio! Alias sint accusamus repudiandae.</p>
+    <p><h3>Sailor</h3>
+      <h3>Soldier</h3>
+      <h3>Dancer</h3>
+      <h3>Monk</h3>
+      <h3>Merchant</h3>
+      <h3>Hunter</h3>
+      <h3>Noble</h3>
+      <h3>Thief</h3>
+      <h3>Blacksmith</h3>
+      <h3>Scholar</h3>
+      <h3>Herald</h3>
+      <h3>Knight</h3></p>
   </section>
   <section id="classes">
     <h1>Classes</h1>
@@ -69,11 +231,327 @@ Agility + Intellect</p>
   </section>
   <section id="equipment">
     <h1>Equipment</h1>
-    <p>Aperiam repellat dignissimos fugiat possimus esse, suscipit neque nisi libero alias obcaecati ipsam, porro illo corrupti nostrum reprehenderit unde, illum in laudantium impedit. Modi, veniam.</p>
+    <p><h3>Weapons</h3>
+      <h5><strong>Civilian Melee Weapons</strong></h5>
+      <table>
+      <tbody>
+      <tr>
+      <td>
+      <p><strong>Name</strong></p>
+      </td>
+      <td>
+      <p>Damage</p>
+      </td>
+      <td>
+      <p>Type</p>
+      </td>
+      <td>
+      <p>Special</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Club</p>
+      </td>
+      <td>
+      <p>1d4</p>
+      </td>
+      <td>
+      <p>Strike</p>
+      </td>
+      <td>
+      <p>Target rolls Health or is stunned</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Dagger</p>
+      </td>
+      <td>
+      <p>1d4</p>
+      </td>
+      <td>
+      <p>Pierce</p>
+      </td>
+      <td>
+      <p>Target rolls Man. or is bleeding</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Hatchet</p>
+      </td>
+      <td>
+      <p>1d4</p>
+      </td>
+      <td>
+      <p>Sunder</p>
+      </td>
+      <td>
+      <p>Target rolls Craft or armor suffers -1</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Craftsman Hammer</p>
+      </td>
+      <td>
+      <p>1d4</p>
+      </td>
+      <td>
+      <p>Strike</p>
+      </td>
+      <td>
+      <p>Target rolls Health or is stunned</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Simple Spear</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>2H Pierce</p>
+      </td>
+      <td>
+      <p>Negate half enemy AR</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Staff</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>2H Strike</p>
+      </td>
+      <td>
+      <p>Wielder may take a 1m step</p>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="4" rowspan="3">
+      <p>All characters have proficiency with civilian weapons.</p>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+      <h5><strong>Martial Melee Weapons</strong></h5>
+      <table>
+      <tbody>
+      <tr>
+      <td>
+      <p><strong>Name</strong></p>
+      </td>
+      <td>
+      <p>Damage</p>
+      </td>
+      <td>
+      <p>Type</p>
+      </td>
+      <td>
+      <p>Special</p>
+      </td>
+      <td>
+      <p>Stat</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Shortsword</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>Pierce</p>
+      </td>
+      <td>
+      <p>Dueling*</p>
+      </td>
+      <td>
+      <p>Agility/Perception</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Longsword</p>
+      </td>
+      <td>
+      <p>1d8</p>
+      </td>
+      <td>
+      <p>Slash</p>
+      </td>
+      <td>
+      <p>Rending*</p>
+      </td>
+      <td>
+      <p>Brawn/Agility</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Battle Axe</p>
+      </td>
+      <td>
+      <p>1d8</p>
+      </td>
+      <td>
+      <p>Sunder</p>
+      </td>
+      <td>
+      <p>Target rolls Craft or armor suffers -2</p>
+      </td>
+      <td>
+      <p>Brawn/Cunning</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Glaive</p>
+      </td>
+      <td>
+      <p>1d8</p>
+      </td>
+      <td>
+      <p>2H Slash</p>
+      </td>
+      <td>
+      <p>Wielder may attack adjacent target</p>
+      </td>
+      <td>
+      <p>Agility/Perception</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Warhammer</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>Strike</p>
+      </td>
+      <td>
+      <p>Target rolls Health or is prone</p>
+      </td>
+      <td>
+      <p>Brawn</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>War Spear</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>2H Pierce</p>
+      </td>
+      <td>
+      <p>Hit ignores AR</p>
+      </td>
+      <td>
+      <p>Perception/Brawn</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Rapier</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>Pierce</p>
+      </td>
+      <td>
+      <p>Dueling* Accurate*</p>
+      </td>
+      <td>
+      <p>Agility/Intellect</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Gladius</p>
+      </td>
+      <td>
+      <p>1d6</p>
+      </td>
+      <td>
+      <p>Slash</p>
+      </td>
+      <td>
+      <p>Wielder may take 2m step</p>
+      </td>
+      <td>
+      <p>Charisma/Agility</p>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <p>Scimitar</p>
+      </td>
+      <td>
+      <p>1d8</p>
+      </td>
+      <td>
+      <p>Slash</p>
+      </td>
+      <td>
+      <p>Target takes bleed damage = Prof.</p>
+      </td>
+      <td>
+      <p>Agility/Cunning</p>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="5">
+      <p>*Dueling weapons give advantage on attack in 1 on 1 combat</p>
+      <p>*Rending weapons allow you to give up your reaction to deal an additional weapon die</p>
+      <p>*Accurate weapons ignore light armor</p>
+      </td>
+      </tr>
+      </tbody>
+      </table></p>
   </section>
   <section id="talents">
     <h1>Talents</h1>
-    <p>Cum asperiores temporibus itaque consequatur quod inventore, quia quis explicabo dicta esse minus voluptatem reiciendis eveniet animi, necessitatibus illum dolorem doloremque repellat placeat, dolores eaque.</p>
+    <p><h3>Proficiency Talents</h3>
+      <ul>
+      <li>Lock picking | Deception/Crafting</li>
+      <li>Blacksmithing | Crafting/Strength</li>
+      <li>Gathering | Recon/Manoeuvre</li>
+      <li>Interrogation | Deception/Strength</li>
+      <li>Concealment | Stealth/Appraisal</li>
+      <li>Cooking | Knowledge/Inspire</li>
+      <li>Enchanting | Knowledge/Crafting</li>
+      <li>First Aid | Knowledge/Health</li>
+      <li>Alchemy | Health/Recon</li>
+      <li>Impersonation | Deception/Perform</li>
+      <li>Barter | Charm/Appraisal</li>
+      <li>Pick pocketing | Stealth/Manoeuvre</li>
+      <li>Rope use | Strength/Knowledge</li>
+      <li>Seamanship | Health/Manoeuvre</li>
+      <li>Sneak | Stealth/Recon</li>
+      <li>Entertain | Perform/Charm/Inspire</li>
+      <li>Research | Knowledge/Appraisal</li>
+      <li>Tracking | Recon/Appraisal</li>
+      <li>Befriend | Charm/Inspire</li>
+      </ul>
+      <h3>Ability Talents</h3>
+      <ul>
+      <li>Quick Draw | Manoeuvre/Deception</li>
+      <li>Unarmed combat | Strength/Manoeuvre</li>
+      </ul></p>
   </section>
   <section id="skills">
     <h1>Skills</h1>
@@ -93,7 +571,18 @@ Agility + Intellect</p>
   </section>
   <section id="conditions">
     <h1>Conditions</h1>
-    <p>Rem iste iure blanditiis excepturi esse nisi corrupti sequi, illo, laborum quo quis quaerat assumenda perspiciatis quod fuga vel laudantium doloribus architecto tempora omnis earum!</p>
+    <p><h3>Stunned</h3>
+      <h3>Poisoned</h3>
+      <h3>Grappled</h3>
+      <h3>Dead</h3>
+      <h3>Confused</h3>
+      <h3>Charmed</h3>
+      <h3>Rooted</h3>
+      <h3>Prone</h3>
+      <h3>Fear</h3>
+      <h3>Frozen</h3>
+      <h3>Bleeding</h3>
+      <h3>Burning</h3></p>
   </section>
     <section id="monsters">
     <h1>Monsters</h1>
