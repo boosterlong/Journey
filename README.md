@@ -1,4 +1,3 @@
-# Journey
-WIP Roleplaying Game
+# WIP Roleplaying Game
 
 https://boosterlong.github.io/RolePlayingGame/
